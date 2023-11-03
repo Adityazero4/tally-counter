@@ -1,0 +1,33 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.counter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.add-counter-button {
+  background: url(https://cdn.shopify.com/s/files/1/0755/9852/8791/files/tcs-freecount-addcounter.png)
+    no-repeat center;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  font-size: 16px;
+}
+
+.login-prompt {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}

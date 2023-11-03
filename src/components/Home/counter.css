@@ -1,0 +1,114 @@
+.counter {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 320px;
+
+  background: url(https://cdn.shopify.com/s/files/1/0755/9852/8791/files/tcs-freecount-smallbg.png);
+  background-repeat: no-repeat;
+}
+
+.counter-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counter label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.counter span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Set a fixed width and height for buttons */
+
+.increment {
+  background: url(https://cdn.shopify.com/s/files/1/0755/9852/8791/files/tcs-freecount-smalladd.png);
+}
+
+.decrement {
+  background: url(https://cdn.shopify.com/s/files/1/0755/9852/8791/files/tcs-freecount-smallsubtract.png);
+}
+
+.increment,
+.decrement {
+  /* background-color: #007bff; */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 135px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+}
+
+.rename-button {
+  background: url(https://cdn.shopify.com/s/files/1/0755/9852/8791/files/tcs-freecount-smallcountername.png);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 175px; /* Adjust the width as needed */
+  height: 43px; /* Adjust the height as needed */
+  margin: 5px;
+}
+
+.reset-button {
+  background: url(https://cdn.shopify.com/s/files/1/0755/9852/8791/files/tcs-freecount-smallreset.png);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 175px; /* Adjust the width as needed */
+  height: 43px; /* Adjust the height as needed */
+  margin: 5px;
+}
+
+.remove-icon {
+  cursor: pointer;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.add-start-value-button {
+  background: url(https://cdn.shopify.com/s/files/1/0755/9852/8791/files/tcs-freecount-smallstart.png)
+    no-repeat;
+
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 175px; /* Adjust the width as needed */
+  height: 43px; /* Adjust the height as needed */
+  margin: 5px;
+}
+
+.save-button {
+  background: url(https://cdn.shopify.com/s/files/1/0755/9852/8791/files/tcs-freecount-smallsetbtn.png);
+  color: #fff;
+  background-repeat: repeat;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 41px; /* Adjust the width as needed */
+  height: 43px; /* Adjust the height as needed */
+  margin: 5px;
+}
